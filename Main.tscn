@@ -1,5 +1,77 @@
-[gd_scene format=1]
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://assets/cancha.png" type="Texture" id=1]
+[ext_resource path="res://assets/Montserrat-Bold.fnt" type="BitmapFont" id=2]
+[ext_resource path="res://assets/player.png" type="Texture" id=3]
+[ext_resource path="res://assets/ball.png" type="Texture" id=4]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="cancha" type="Sprite" parent="."]
+
+transform/pos = Vector2( 319.893, 200.277 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Label" type="Label" parent="cancha"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -44.0
+margin/top = -35.0
+margin/right = -10.0
+margin/bottom = 24.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "0"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Label1" type="Label" parent="cancha"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 14.0
+margin/top = -36.0
+margin/right = 48.0
+margin/bottom = 23.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 0.0117188, 0.0115356, 0.0115356, 1 )
+text = "0"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="player" type="Sprite" parent="cancha"]
+
+transform/pos = Vector2( 280.447, -2.99535 )
+texture = ExtResource( 3 )
+
+[node name="player 2" type="Sprite" parent="cancha"]
+
+transform/pos = Vector2( -282.748, -0.274597 )
+texture = ExtResource( 3 )
+
+[node name="ball" type="Sprite" parent="cancha"]
+
+transform/pos = Vector2( 0.209656, -7.07648 )
+texture = ExtResource( 4 )
 
 
