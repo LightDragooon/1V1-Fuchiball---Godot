@@ -2,34 +2,4 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Label" type="Label" parent="."]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 0
-margin/left = 57.0
-margin/top = 160.0
-margin/right = 97.0
-margin/bottom = 174.0
-text = "123"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-
-[node name="Label 2" type="Label" parent="."]
-
-focus/ignore_mouse = true
-focus/stop_mouse = true
-size_flags/horizontal = 2
-size_flags/vertical = 0
-margin/left = 212.0
-margin/top = 29.0
-margin/right = 252.0
-margin/bottom = 43.0
-text = "ABC"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-
 
